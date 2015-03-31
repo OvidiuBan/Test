@@ -12,7 +12,7 @@ namespace UnitTestProject1
         public void SumOfEvenNumberTests()
         {
             int[] a = new int[] { 1, 2, 3, 4 };
-            Methods method = new Methods();
+            MethodProblem1 method = new MethodProblem1();
             int actualSum = method.SumOfEvenNumbers(a);
             int expectedSum = 6;
             Assert.AreEqual(expectedSum, actualSum, "Wrong sum of even numbers!");
