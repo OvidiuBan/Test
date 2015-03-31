@@ -17,11 +17,7 @@ namespace SimpleProblem3
             for (int i = 0; i < size; i++)
             {
                 actualSum += a[i];
-                if (multiply == 0)
-                    multiply = 1;
                 multiply *= a[i];
-                if (factorial == 0)
-                    factorial = 1;
                 factorial *= (i + 1);
             }
             gaussSum = size * (size + 1) / 2;
